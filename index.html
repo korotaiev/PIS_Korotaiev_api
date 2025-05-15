@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NASA APOD</title>
+    <style>
+      body {
+        font-family: sans-serif;
+        margin: 2rem;
+      }
+      .card {
+        max-width: 600px;
+        margin: auto;
+        text-align: center;
+      }
+      img {
+        max-width: 100%;
+        border-radius: 8px;
+      }
+      h1 {
+        font-size: 1.5rem;
+      }
+      p {
+        text-align: justify;
+      }
+      button {
+        margin-top: 1rem;
+        padding: 0.5rem 1rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <h1 id="title">Завантаження…</h1>
+      <img id="image" src="" alt="" />
+      <p id="explanation"></p>
+      <button id="prev-day">Попередній день</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
